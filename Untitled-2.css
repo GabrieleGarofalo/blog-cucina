@@ -1,0 +1,32 @@
+/*logo*/
+.logo{
+    
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60px;
+}
+
+/*sexione principale*/
+.bg-image{
+    background-image: url(./chef-a-domicilio-e1508402801398-768x507.jpg);
+    height: 60vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*sezione carosello*/
+
+body{
+    background-color: rgba(128, 128, 128, 0.143);
+}
+
+/*responsive*/
+@media only scrren and (max-width: 768px){
+    [class*=col-]{
+        width: 100%;
+    }
+}    
+
+
+
